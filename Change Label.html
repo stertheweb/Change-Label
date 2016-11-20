@@ -1,0 +1,18 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<html>
+<head>
+<p>Please enter text.</p>
+</head>
+<body>
+<span id="Label"> Label </span> <input type="text"id="userInput"></input>
+<button onclick="ChangeLabel()">Enter</button>
+<script language="javascript">
+function ChangeLabel() {
+	var span = document.getElementById("Label");
+	var userInput = document.getElementById("userInput").value;
+	span.textContent = userInput;
+}
+</script>
+</body>
+</html>
